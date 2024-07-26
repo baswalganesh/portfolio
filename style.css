@@ -1,0 +1,686 @@
+body {
+  padding: 0;
+  border: border;
+  margin: 0;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "IBM Plex Sans", sans-serif;
+  /* filter: blur(0.50px); */
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(44, 44, 44);
+}
+
+.logo {
+  color: rgb(189, 189, 189);
+  position: absolute;
+  left: 12rem;
+  /* text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                0 3px 0 #ccc, 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc,
+                0 7px 0 #ccc, 0 8px 0 #ccc,
+                0 9px 0 #ccc, 0 10px 0 #ccc,
+                0 11px 0 #ccc, 0 12px 0 #ccc,
+                0 20px 30px rgba(255, 255, 255, 0.5); */
+  font-weight: 400;
+}
+.logo:hover {
+  /* text-shadow: 0.5px 0.5px 3px rgb(0, 213, 255); */
+  transition: 0.1s;
+}
+.navlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 2rem;
+  font-size: 15px;
+}
+
+/* mian page*/
+.main {
+  height: auto;
+  margin-top: 140px;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/*  page 1 intro page */
+.intro {
+  height: fit-content;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+}
+.introleft {
+  width: 55%;
+  height: auto;
+}
+
+.maintitle {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.smallabout {
+  margin-top: 40px;
+  color: rgb(104, 104, 104);
+  font-size: 1.1rem;
+}
+.connect {
+  height: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.one {
+  color: rgb(109, 109, 109);
+  size: inherit;
+  font-size: 2rem;
+}
+.one:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+}
+
+.link:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+/* intro right */
+.introright {
+  width: 45%;
+  position: relative;
+  /* background-image: url(face.jpg); */
+  background-size: cover;
+  border-radius: 1rem;
+}
+.photostamp {
+  height: 100%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+}
+.photoprofile {
+  height: 70%;
+  width: 300px;
+}
+.profilepicture {
+  height: 100%;
+  width: 100%;
+}
+/* .circle{
+  position: absolute;
+  background-color: rgb(47, 47, 47);
+  height: 10rem;
+  width: 10rem;
+  left: 4rem ;
+  bottom: 13rem;
+  z-index: -1;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: wheat;
+  filter: blur(50px);
+} */
+.downcontact {
+  height: 30%;
+  width: 300px;
+}
+/* MAIN 2 skillset */
+.SKILLSET {
+  height: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 100px;
+  letter-spacing: 0.2rem;
+}
+.skilltitle {
+  height: auto;
+  text-align: center;
+  display: block;
+  font-size: 4rem;
+  font-weight: 800;
+  border-bottom: 1.5px solid rgb(44, 44, 44);
+}
+/* webskills */
+.webelements {
+  height: auto;
+  margin-top: 20px;
+}
+.webtitle {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.webdevelements {
+  margin-top: 20px;
+  justify-content: center;
+
+  gap: 4rem;
+  display: flex;
+  align-items: center;
+}
+.two {
+  color: rgb(109, 109, 109);
+  size: inherit;
+  font-size: 7rem;
+}
+
+.fa-react:hover {
+  color: rgb(0, 183, 255);
+  transition: 0.5s;
+}
+.fa-node:hover {
+  color: rgb(0, 125, 17);
+  transition: 0.5s;
+}
+.fa-css3-alt:hover {
+  color: rgb(25, 17, 255);
+  transition: 0.5s;
+}
+.fa-angular:hover {
+  color: rgb(255, 69, 69);
+  transition: 0.5s;
+}
+.fa-js:hover {
+  color: rgb(255, 238, 0);
+  transition: 0.5s;
+}
+.fa-html5:hover {
+  color: rgb(255, 119, 0);
+  transition: 0.5s;
+}
+/* design skills */
+.dots1 {
+  height: 1rem;
+  width: 1rem;
+}
+.designtitle {
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.designelements {
+  margin-top: 20px;
+  justify-content: center;
+  gap: 6rem;
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 5rem;
+  width: 5rem;
+  filter: grayscale();
+  transition: 10s ease-out;
+}
+.image:hover {
+  text-shadow: #f6f6f6;
+  filter: none;
+  transition: 0s;
+  transition-timing-function: ease-in;
+  /* transform: translateY(-0.2rem); */
+}
+
+/* footer */
+footer {
+  margin-top: 150px;
+  position: relative;
+  bottom: 0px;
+  height: fit-content;
+  width: 100%;
+  border-top: 1px solid rgb(44, 44, 44);
+}
+
+.footcontents {
+  height: 15rem;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  display: flex;
+}
+.copyright {
+  position: absolute;
+  top: 1rem;
+  right: 11rem;
+  display: inline;
+
+  color: rgb(109, 109, 109);
+}
+/* contact
+.contacttitle{
+  font-size: 3rem;
+  font-weight: 800;
+  display: inline;
+  margin-left: -2rem;
+}
+.location{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+}
+.logoelements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   gap: 0.5rem; 
+}
+.loclogo{
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+.locationtitle{
+  font-size: 1.5rem;
+  font-weight: 800  ;
+}
+.delhiindia{
+  font-size: 0.80rem;
+
+} */
+/* MAIL CONTENT 
+.maillogo{
+  font-size: 5rem;
+  height: 4rem;
+  width: 4rem;
+}
+.mailelements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mail{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  
+}
+
+.mailtitle{
+  font-size: 1.8rem;
+  font-weight: 800  ;
+}
+
+ */
+/* <!--  EXPERIENCE AND EDUCATION --> */
+
+.eduexppropor {
+  height: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 100px;
+  display: flex;
+  /* gap: 1rem; */
+}
+
+/* EXPERIENCE  */
+.experience{
+  width: 50%;
+}
+.exp {
+  width: 100%;
+  /* border-right:1px solid rgb(70, 70, 70) ; */
+  padding-top: 2rem;
+  border-top: 1px solid rgb(70, 70, 70);
+}
+
+.exptitle {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+.experience1 {
+  margin-top: 2rem;
+  height: 13rem;
+  /* background-color: #d60000; */
+  display: flex;
+}
+.fa-diamond {
+  font-size: 1.5rem;
+  left: 1rem;
+}
+.explogoyear {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.explogo {
+  margin-top: 1rem;
+  height: 62%;
+  /* width:60%; */
+  text-align: right;
+  align-items: center;
+
+  border-radius: 1rem;
+  filter: opacity(80%);
+}
+.explogo:hover {
+  filter: opacity(100%);
+  transition: 0.5s;
+}
+.expyear {
+  width: 100%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 700;
+  /* padding-left:4rem ; */
+  padding-right: 0px;
+  padding-top: 0.7rem;
+}
+.expdetails {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2px;
+}
+.exphead {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding: 0px;
+}
+.expcompany {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+.explocation {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+.expdesp {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+
+/* PROJECTS */
+.pro {
+  margin-top: 10rem;
+  width: 100%;
+  /* border-right:1px solid rgb(70, 70, 70) ; */
+  padding-top: 2rem;
+  border-top: 1px solid rgb(70, 70, 70);
+}
+
+.protitle {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+.project1 {
+  margin-top: 2rem;
+  height: 13rem;
+  /* background-color: #d60000; */
+  display: flex;
+}
+
+.prologoyear {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.prologo {
+  margin-top: 1rem;
+  height: 62%;
+  /* width:60%; */
+  text-align: right;
+  align-items: center;
+padding-bottom: 0px;
+  border-radius: 1rem;
+  filter: opacity(80%);
+}
+.prologo:hover {
+  filter: opacity(100%);
+  transition: 0.5s;
+}
+.proyear {
+  width: 100%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 700;
+  /* padding-left:4rem ; */
+  padding-right: 0px;
+  padding-top: 0.7rem;
+}
+.prodetails {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2px;
+}
+.prohead {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding: 0px;
+}
+.procompany {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+.prolocation {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+.prodesp {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+
+
+/* education */
+.edu {
+  width: 50%;
+  padding-top: 2rem;
+  border-top: 1px solid rgb(70, 70, 70);
+  margin-top: 20rem;
+}
+
+.eduedu {
+  height: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 100px;
+  display: flex;
+}
+
+.edutitle {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+.education2 {
+  margin-top: 2rem;
+  height: auto;
+  /* background-color: #d60000; */
+  display: flex;
+}
+.fa-diamond {
+  font-size: 1.5rem;
+  left: 1rem;
+}
+.edulogoyear {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.eduyear {
+  width: 100%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 700;
+  /* padding-left:4rem ; */
+  padding-right: 0px;
+  padding-top: 0.7rem;
+}
+.edulogo {
+  margin-top: 1rem;
+  height: 100%;
+  width: 60%;
+  text-align: right;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  filter: opacity(80%);
+}
+.edulogo:hover {
+  filter: opacity(100%);
+  transition: 0.5s;
+}
+.edudetails {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.eduschool {
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 0px;
+}
+.educourse {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+.edusoc {
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+/* POSITINO OF RESPO */
+
+.por {
+  width: 100%;
+  margin-top: 8rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgb(70, 70, 70);
+}
+.position {
+  width: 100%;
+}
+.edu {
+  width: 50%;
+  /* border-right:1px solid rgb(70, 70, 70) ; */
+}
+
+.portitle {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.positionofrespo2 {
+  margin-top: 2rem;
+  height: auto;
+  /* background-color: #d60000; */
+  display: flex;
+}
+.fa-diamond {
+  font-size: 1.5rem;
+  left: 1rem;
+}
+.porlogoyear {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.poryear {
+  width: 100%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 700;
+  /* padding-left:4rem ; */
+  padding-right: 0px;
+  padding-top: 0.7rem;
+}
+.porlogo {
+  margin-top: 1rem;
+  height: 100%;
+  width: 60%;
+  text-align: right;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  filter: opacity(80%);
+}
+.porlogo:hover {
+  filter: opacity(100%);
+  transition: 0.5s;
+}
+.pordetails {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.porschool {
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 0px;
+}
+.porMusic {
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+.porMarketing {
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: #a7a7a7;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
